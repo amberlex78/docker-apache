@@ -39,6 +39,7 @@ RUN apt-get update && \
         ssmtp \
         mysql-client \
         git \
+        unzip \
         wget && \
     rm -rf /var/lib/apt/lists/* && \
     wget https://getcomposer.org/download/1.10.22/composer.phar -O /usr/local/bin/composer && \
